@@ -1,0 +1,23 @@
+.swap{
+    flex: 4;
+    padding: 10px;
+    background: url("https://source.unsplash.com/random/?night");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.swapTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.swapList{
+
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    row-gap: 42px;
+}
